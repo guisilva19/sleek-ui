@@ -1,5 +1,5 @@
 import Header from "./components/header/header";
-import Navigation from "./components/navgation/navigation";
+import Navigation from "./components/navigation/navigation";
 import Spline from "./components/spline/spline";
 
 export default function Home() {
