@@ -13,31 +13,19 @@ export default function Navigation() {
       <section className="h-screen w-max absolute left-10 flex items-center z-10">
         <div className="bg-white/10 w-14 h-80 rounded-3xl flex flex-col justify-between items-center py-8">
           <Link href={"/"}>
-            <LayoutDashboard
-              color="#fff"
-              size={20}
-              className="hover:text-red-500"
-            />
+            <LayoutDashboard size={20} className="text-white hover:text-light transition" />
           </Link>
           <Link href={"/"}>
-            <MessageSquareText
-              color="#fff"
-              size={20}
-              className="hover:text-red-500"
-            />
+            <MessageSquareText size={20} className=" text-white hover:text-light transition" />
           </Link>
           <Link href={"/"}>
-            <PieChart
-              color="#fff"
-              size={20}
-              className="hover:text-red-500"
-            />
+            <PieChart size={20} className="text-white hover:text-light transition" />
           </Link>
           <Link href={"/"}>
-            <UserRound color="#fff" size={20} className="hover:text-red-500" />
+            <UserRound size={20} className="text-white hover:text-light transition" />
           </Link>
           <Link href={"/"}>
-            <Settings color="#fff" size={20} className="hover:text-red-500" />
+            <Settings size={20} className="text-white hover:text-light transition" />
           </Link>
         </div>
       </section>
