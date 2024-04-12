@@ -12,7 +12,8 @@ const config: Config = {
         primary: "#003C43",
         secondary: "#135D66",
         light: "#77B0AA",
-        "max-light": "#E3FEF7"
+        "max-light": "#E3FEF7",
+        "primary-black": "#0F1010",
       },
     },
   },
