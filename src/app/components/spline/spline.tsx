@@ -8,7 +8,7 @@ const Spline = () => {
       const canvas: any = document.getElementById("canvas3d");
       const app = new Application(canvas);
       await app.load(
-        "https://prod.spline.design/k4C28pPchcJ9QxyT/scene.splinecode"
+        "https://prod.spline.design/k-I07y7ep29VLqsL/scene.splinecode"
       );
     };
 
